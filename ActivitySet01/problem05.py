@@ -1,12 +1,13 @@
 # Functions
 
 
-def computepay(h, r):
-    pass  # ...
-
-
-hrs = float(input("Enter hours? "))
-rte = float(input("Enter rate per hour? "))
-
-p = computepay(hrs, rte)
-print("Pay", p)
+a=int(input("enter number"))
+b=int(input("enter number"))
+c=int(input("enter number"))
+4
+if a>b and a>c:
+  print(f"{a}is largest number")
+elif b>=a and b>c:
+  print(f"{b}is largest number")
+else:
+  print(f"{c}is largest number")
